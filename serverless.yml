@@ -11,5 +11,4 @@ functions:
   api:
     handler: src/index.handler
     events:
-      - http: ANY /
       - http: 'ANY {proxy+}'
